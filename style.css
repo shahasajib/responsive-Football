@@ -15,6 +15,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
@@ -27,8 +28,7 @@ main{
     display: flex;
     align-items: center;
     background-color: #3b46e6;
-    width: 100%; 
-     
+    width: 100%;
 }
 .heading{
     padding-left:78px;
@@ -125,5 +125,35 @@ main{
 .icon-border:hover.icon-border{
     transform: scale(1.6);
 }
-   
 
+/* ------------------
+    Footer Styles
+-------------------- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.logo img{
+    width:470px;
+    display: block;
+    
+}
+.style{
+    text-align: center;
+    
+}
+/* -----------------------
+       Madia query
+------------------------ */
+/* ----------------------
+        Mobile Device 
+--------------------------*/
+@media only screen and(max-width:480px){
+    .container .players .Highlight {
+        width: auto;
+        
+    }
+    
