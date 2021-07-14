@@ -1,0 +1,112 @@
+/* ---------
+    fonts
+------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+/*----------------------
+ Common Style & utilities
+ ----------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---------------------
+       Part-1 style
+---------------------- */
+
+
+.headline{
+    display: flex;
+    align-items: center;
+    background-color: #3b46e6;
+    width: 100%; 
+     
+}
+.heading{
+    padding-left:78px;
+}
+
+.subtitle{
+    font-size: 64px;
+    color: white;
+    width: 485px;
+    height: 230px;   
+}
+
+.icon-border{
+    background-color:#E02C6D;
+    width: 168px;
+    height: 44px;
+    font-size: 16px;
+    color: white;    
+}
+
+.fa-arrow-right{ 
+    width: 24px;
+    height: 24px;
+}
+.banner{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 100px; 
+    margin-bottom: 86px; 
+    margin-top: 153px;
+}
+
+
+
+/* -------------------
+     players style
+---------------------- */
+.container{
+    margin-top: 70px;
+    
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 27px 30px;
+    padding: 10px;    
+}
+.player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 330px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    margin: 15px 15px;
+}
+.player-info{
+    margin: 16px 15px 33px;
+ }
+.player-name{
+    font-size: 28px;
+}
+.player-details{
+    font-size: 16px;
+}
+
+.Highlight{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin:15px 15px 30px;
+    flex-wrap: wrap;
+}
+.Highlight-details{
+    width: 466px;
+    border: 3px soild whitesmoke;
+}
+
+   
+
